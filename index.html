@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dekka Devi Pradeep - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-brand">&lt; DEKKA DEVI PRADEEP /&gt;</a>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About Me</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#journey" class="nav-link">Journey</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="./resume.pdf" download="Dekka_Devi_Pradeep_Resume.pdf" target="_blank" class="nav-link"><i class="fas fa-download"></i> Resume</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><button class="theme-toggle" id="themeToggle"><i id="themeIcon" class="fas fa-sun"></i></button></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-image">
+            <img src="./hero-illustration3.png" alt="Developer Illustration" />
+        </div>
+        <div class="home-content">
+            <h1>Hello 👋 !!</h1>
+            <p class="intro">I'm Devi Pradeep.</p>
+            <p class="description">
+                I'm a passionate AI enthusiast and developer 👨‍💻 from Rajam, Andhra Pradesh, India. 
+                Getting to be creative 🔨 and trying something new is why I ❤️ what I do. 
+                Let's connect to discuss a project or just want to say hi? My Inbox is open for all.
+            </p>
+            <div class="social-links">
+                <a href="https://github.com/pradeepdekka" target="_blank" class="social-link" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcRwPVZpCCpfWmDjpgvwXKbHplspwrkwKJdSBjCzvhtSVJtjMztfwRldDKFxfmvZwFDTFKkTh" target="_blank" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://linkedin.com/in/dekka-devi-pradeep" target="_blank" class="social-link" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+            <a href="./resume.pdf" download="Dekka_Devi_Pradeep_Resume.pdf" target="_blank" class="cta-button" style="font-size: 1rem; padding: 0.8rem 1.5rem;">
+                <i class="fas fa-download"></i> Download Resume
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title fade-in">About Me</h2>
+        <div class="about-content fade-in">
+            <div>
+            <p class="about-text">
+                A third-year B-Tech student of Artificial Intelligence and Data Science (CSE-AI&DS) with strong programming skills and a passion for problem-solving. My academic projects and internships have helped me develop technical abilities and critical thinking. I am eager to use my knowledge in a software engineer role, contributing to effective and innovative solutions.
+            </p>
+            </div>
+        </div>
+        <div class="basic-info">
+            <h3>Basic Information</h3>
+            <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <span>devipradeepdekka@gmail.com</span>
+            </div>
+            <div class="info-item">
+            <i class="fas fa-phone"></i>
+            <span>+91 9063463814</span>
+            </div>
+            <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Rajam, Andhra Pradesh</span>
+            </div>
+            <div class="info-item">
+            <i class="fas fa-graduation-cap"></i>
+            <span>CGPA: 8.56 (Until Semester 5)</span>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>My <span class="highlight">Skills</span></h2>
+                <p>Technologies and tools I work with</p>
+            </div>
+            <div class="skills-grid">
+                
+                <!-- Left Column -->
+                <div class="skills-column">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <h3>Programming Languages</h3>
+                        </div>
+                        <div class="skill-content">
+                            <div class="skill-items">
+                                <span class="skill-item">C</span>
+                                <span class="skill-item">Python</span>
+                                <span class="skill-item">Java</span>
+                                <span class="skill-item">SQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <h3>Frameworks & Libraries</h3>
+                        </div>
+                        <div class="skill-content">
+                            <div class="skill-items">
+                                <span class="skill-item">Pandas</span>
+                                <span class="skill-item">Numpy</span>
+                                <span class="skill-item">Matplotlib</span>
+                                <span class="skill-item">OpenCV</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right Column -->
+                <div class="skills-column">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <h3>Tools & Platforms</h3>
+                        </div>
+                        <div class="skill-content">
+                            <div class="skill-items">
+                                <span class="skill-item">GIT</span>
+                                <span class="skill-item">Jupyter Notebook</span>
+                                <span class="skill-item">VS Code</span>
+                                <span class="skill-item">Power BI</span>
+                                <span class="skill-item">Excel</span>
+                                <span class="skill-item">Word</span>
+                                <span class="skill-item">PowerPoint</span>
+                                <span class="skill-item">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <i class="fas fa-user-friends"></i>
+                            </div>
+                            <h3>Soft Skills</h3>
+                        </div>
+                        <div class="skill-content">
+                            <div class="skill-items">
+                                <span class="skill-item">Problem Solving</span>
+                                <span class="skill-item">Critical Thinking</span>
+                                <span class="skill-item">Team Collaboration</span>
+                                <span class="skill-item">Leadership</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Section (Education & Experience) -->
+    <section id="journey" class="journey">
+        <h2 class="section-title fade-in">My Journey</h2>
+        <div class="timeline fade-in">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-title">B.Tech in AI & Data Science</h3>
+                    <p class="timeline-subtitle">GMR Institute of Technology</p>
+                    <div class="timeline-date">November 2022 - Present</div>
+                    <p class="timeline-description" style="text-align: left;">Currently pursuing Bachelor of Technology in Artificial Intelligence and Data Science with a CGPA of 8.56 (Until Semester 5). Focusing on machine learning, data analysis, and AI applications.</p>
+                </div>
+                <div class="timeline-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-title"><a href="https://www.linkedin.com/posts/dekka-devi-pradeep_internship-webdevelopment-javascript-activity-7244012400889221120-ylrn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEYOg_8B7VOdm5nV5NfQm2wU8Io2tKsgvmc" target="_blank" style="color: #854116 ; font-weight: 700;font-size: 25px; font-style: italic; text-decoration: none;">Web Development Intern</a></h3>
+                    <p class="timeline-subtitle">IIPE, Visakhapatnam</p>
+                    <div class="timeline-date">June 2024 - July 2024</div>
+                    <p class="timeline-description">Developed and maintained departmental websites using HTML, CSS, JavaScript, PHP 8.2, and MySQL. Implemented dynamic web components and ensured responsive design across all platforms.</p>
+                </div>
+                <div class="timeline-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <!-- <h3 class="timeline-title">AI Intern</h3> -->
+                    <h3 class="timeline-title"><a href="https://www.linkedin.com/posts/dekka-devi-pradeep_artificialintelligence-machinelearning-edustation-activity-7245429537470078976-ez06?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEYOg_8B7VOdm5nV5NfQm2wU8Io2tKsgvmc" target="_blank" style="color:  #854116 ; font-size: 25px; font-weight: 700; font-style: italic; text-decoration: none;">AI Intern</a></h3>
+                    <p class="timeline-subtitle">EDUSTATION</p>
+                    <div class="timeline-date">March 2024 - May 2024</div>
+                    <p class="timeline-description" style="text-align: left;">Explored machine learning concepts, implemented classification and regression algorithms, and developed an image classification model using supervised learning techniques.</p>
+                </div>
+                <div class="timeline-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-title">Intermediate (MPC)</h3>
+                    <p class="timeline-subtitle">Sri Chaitanya Junior College</p>
+                    <div class="timeline-date">June 2020 - April 2022</div>
+                    <p class="timeline-description">Completed intermediate education with Mathematics, Physics, and Chemistry with a CGPA of 8.41.</p>
+                </div>
+                <div class="timeline-icon">
+                    <i class="fas fa-school"></i>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-title">Secondary School Certificate</h3>
+                    <p class="timeline-subtitle">Chaitanya High School</p>
+                    <div class="timeline-date">June 2019 - April 2020</div>
+                    <p class="timeline-description" style="text-align: left;" >Completed secondary education with a perfect CGPA of 10.0.</p>
+                </div>
+                <div class="timeline-icon">
+                    <i class="fas fa-certificate"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+   <section id="projects" class="projects">
+    <h2 class="section-title fade-in">Projects</h2>
+    <div class="projects-grid fade-in">
+        <div class="project-card">
+            <div class="project-image">
+                <img src="./pimgface.webp" alt="Face Recognition System">
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Face Recognition System</h3>
+                <p class="project-description">
+                    Real-time face recognition system using OpenCV, HOG, and CNN for accurate detection and identification with Firebase integration.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">OpenCV</span>
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">CNN</span>
+                    <span class="tech-tag">Firebase</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/pradeepdekka/Face-Recognition" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project-card">
+            <div class="project-image">
+                <img src="./pimgdrum.jpg" alt="Drum Kit Web App">
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Drum Kit Web App</h3>
+                <p class="project-description">
+                    Interactive drum kit with audio playback and visual animations using DOM manipulation and event handling.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/pradeepdekka/Drum_Kit" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <h2 class="section-title fade-in">Achievements & Certificates</h2>
+        <div class="achievements-grid fade-in">
+
+            <div class="achievement-card">
+                <h3 class="achievement-title">Certified System Administrator</h3>
+                <p class="achievement-org">ServiceNow</p>
+                <a href="https://drive.google.com/file/d/1I0WgZx7jESV-d9VlLGmeCbhku3RtcDnU/view?usp=sharing" target="_blank" class="btn btn-outline">
+                    <i class="fas fa-certificate"></i> View Certificate
+                </a>
+            </div>
+            
+            <div class="achievement-card">
+                <h3 class="achievement-title">Certified Application Developer</h3>
+                <p class="achievement-org">ServiceNow</p>
+                <a href="https://drive.google.com/file/d/1Wf2IRvceEPoQ3hriCQBGy7G8jzCxeYui/view?usp=drive_link" target="_blank" class="btn btn-outline">
+                    <i class="fas fa-certificate"></i> View Certificate
+                </a>
+            </div>
+
+            <div class="achievement-card">
+                <h3 class="achievement-title">AWS Academy Graduate</h3>
+                <p class="achievement-org">Cloud Foundations</p>
+                <a href="https://drive.google.com/file/d/1SnjoJoZCYNbwBtD8HUrcgxf08Uv_Ohzk/view?usp=sharing" target="_blank" class="btn btn-outline">
+                    <i class="fas fa-certificate"></i> View Certificate
+                </a>
+            </div>
+            
+            <div class="achievement-card">
+                <h3 class="achievement-title">GATE 2025 (Data Science & AI)</h3>
+                <p class="achievement-org">All India Rank: 5823 | Score: 389</p>
+                <a href="https://drive.google.com/file/d/1YND3YwZd0GnH9dD2aAO5BFYP56bjwwFM/view?usp=sharing" target="_blank" class="btn btn-outline">
+                    <i class="fas fa-certificate"></i> View Certificate
+                </a>
+            </div>
+            
+            <div class="achievement-card">
+                <h3 class="achievement-title">NCC 'B' Certificate</h3>
+                <p class="achievement-org">Grade 'A' | Rank: Lance Corporal</p>
+                <a href="https://drive.google.com/file/d/1hK5oVLjHCW-IbiSGl4Ly_KCP5SDBpO8k/view?usp=drive_link" target="_blank" class="btn btn-outline">
+                    <i class="fas fa-certificate"></i> View Certificate
+                </a>
+            </div>
+            
+            <div class="achievement-card">
+                <h3 class="achievement-title">Sports Achievement</h3>
+                <p class="achievement-org">JNTU-GV Kho-Kho Representative</p>
+                <a href="https://drive.google.com/file/d/1ZCjtFrsDqOjXiDjX_aK3EibyA7uSuumT/view?usp=drive_link" target="_blank" class="btn btn-outline">
+                    <i class="fas fa-certificate"></i> View Certificate
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title fade-in">Contact Me</h2>
+        <div class="contact-container fade-in">
+            <div class="contact-info">
+                <h3 style="margin-bottom: 2rem; color: var(--text-primary); text-align: center;">Get In Touch</h3>
+                
+                <div class="contact-item">
+                    <i class="fas fa-user"></i>
+                    <div>
+                        <h4>Name</h4>
+                        <p>Dekka Devi Pradeep</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>devipradeepdekka@gmail.com</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+91 9063463814</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Vizag, Andhra Pradesh, India</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form">
+                <h3 style="margin-bottom: 2rem; color: var(--text-primary); text-align: center;">Send Message</h3>
+                <div class="success-message" id="successMessage">
+                    <i class="fas fa-check-circle"></i> Message sent successfully!
+                </div>
+                <div class="error-message" id="errorMessage">
+                    <i class="fas fa-exclamation-circle"></i> Failed to send message. Please try again.
+                </div>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <div style="display: flex; justify-content: center; margin-top: 1rem;">
+                        <button type="submit" class="btn btn-primary" style="width: fit-content; font-size: 0.8rem; padding: 0.6rem;" id="submitBtn">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-row">
+            <div class="footer-copy">
+                <p><span class="footer-name">Dekka Devi Pradeep</span></p>
+            </div>
+            <div class="footer-social">
+                <a href="https://github.com/pradeepdekka" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/dekka-devi-pradeep" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcRwPVZpCCpfWmDjpgvwXKbHplspwrkwKJdSBjCzvhtSVJtjMztfwRldDKFxfmvZwFDTFKkTh" target="_blank" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://leetcode.com/Pradeep_263" target="_blank" title="LeetCode">
+                    <i class="fas fa-code"></i>
+                </a>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2025 <span class="footer-brand">Dekka Devi Pradeep</span>. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <script src="script.js"></script>
+</body>
+</html>
